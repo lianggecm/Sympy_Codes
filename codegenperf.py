@@ -22,5 +22,5 @@ class TimeFCodegen01:
     def setup(self):
         self.expr = _make_expr_01()
 
-    def time_dsolve(self):
+    def time_fcodegen(self):
         result=codegen(['Test', self.expr], 'F95')
